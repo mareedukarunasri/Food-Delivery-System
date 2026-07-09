@@ -1,4 +1,4 @@
-def payment():
+def make_payment():
 
     print("\nPayment Options")
     print("1. UPI")

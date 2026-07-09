@@ -3,7 +3,7 @@ from src.login import login
 from src.restaurant import view_restaurants
 from src.menu import view_menu
 from src.cart import add_to_cart, view_cart
-from src.payment import payment
+from src.payment import make_payment
 from src.admin import admin_panel
 from src.database import connect_database
 
@@ -55,7 +55,7 @@ while True:
 
 
     elif choice == 7:
-        payment()
+        make_payment()
 
 
     elif choice == 8:
